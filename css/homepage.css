@@ -1,0 +1,17 @@
+.toptitle {
+    text-align: center;
+    padding: 10px;
+    background-color: #64b6a6;
+    color: white;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: antiquewhite
+}
+
+h1 {}

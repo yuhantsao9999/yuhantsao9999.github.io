@@ -1,0 +1,28 @@
+.toptitle {
+    text-align: center;
+    padding: 10px;
+    background-color: #64b6a6;
+    color: white;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+th {
+    padding: 10px;
+    width: 100px;
+    background-color: #ffcfad;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    background-color: #ffe4b8;
+}
+
+td.info:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
