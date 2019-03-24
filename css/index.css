@@ -10,19 +10,8 @@
     margin: 0 auto;
 }
 
-th {
-    padding: 10px;
-    width: 100px;
-    background-color: #ffcfad;
+html {
+    background-color: antiquewhite
 }
 
-td {
-    text-align: center;
-    padding: 10px;
-    width: 100px;
-    background-color: #ffe4b8;
-}
-
-td.info:hover {
-    background-color: rgba(0, 0, 0, .1);
-}
+h1 {}
