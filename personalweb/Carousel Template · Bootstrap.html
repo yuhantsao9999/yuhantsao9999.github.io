@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.com/docs/4.3/examples/carousel/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>personal web</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="./Carousel Template · Bootstrap_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./Carousel Template · Bootstrap_files/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="https://getbootstrap.com/docs/4.3/examples/carousel/#">AboutMe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://github.com/yuhantsao9999">Github<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/yuhan.cao">Facebook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Email</a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <div id="myCarousel" class="carousel slide pointer-event" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+            </ol>
+            <!-- <div class="carousel-inner">
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>Example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div> -->
+            <!-- <div class="carousel-item active carousel-item-left">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-next carousel-item-left">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    
+                        </div>
+                    </div> -->
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="https://getbootstrap.com/docs/4.3/examples/carousel/#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="https://getbootstrap.com/docs/4.3/examples/carousel/#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAWlBMVEV5y77///9yybtxyLvY7+ttx7mP08j1+/qEz8Pt+Pbp9vR9zcD5/fzm9fKv39fO6+aa18285N2V1cug2dDB5uC04dmL0sbe8u7R7Ofa8OzH6OOp3dS+5N6f2dD8DS1FAAANvElEQVR4nN2d2ZaiMBCGoWIABQVRXNv3f80JsoWQhKwC89/MmT5tw2eWqlRSlSD83xX89nFZrd8+0j9htj/eX3+nd1FGUZTUIv8Wn3d1fRwPsffH+yU87M6XKAmACEEwFvkJQkGalKfX3SunL8L4UUUBmoJNhQh+ernePb2IF8L9651i0kAaAsAoqu4+hqhrwux+upFOqUM3tCYOPte94xdyS5g9LglotR2nMaPz0eU7uSR8vgPDxmMg0e3qcO5xRbivAuwCr4XE5cPRizki3BXYrnNyIIPKzZB0QJhdE+wYr2X8uDAh1oRxlbrrnSwjRLulCbPKcu6cE0psGa0IY998tfDNjtGCMDsH3vrnmLG0GY/mhHniv/06wcV8XjUlPES/46sRg/NvCbO3F/sgZUwNh6MR4cOfgZAIX4x8OQPC+L0EHxFK858Q7tKfjsCRoNBfQWoTLtWAjVCgbTg0CQ/JooBEuPJK+FqajwhFerZRi/D3NoInCJ6eCONoBS34FVy9EN5/5IWqCF88ED7Ww0cEkbLZUCX8W8UQHIQS1flGkfC0nJUXKVUMOqoRXlbVRVuBmvFXIlzNJDoWKEUcVQiLdQKSKVUFUYFwtYBqrThPuGJAJcRZwnLNgKSjzq785whXOYvSmp1RZwhPawckOtgQXjcAGCTy8I2UcF2+qEhwMyY8rs9V4woKQ8J46TdXFpzMCFfqq/Ekc27EhFuYRnuBeEIVEr5WtiCcUSJcEYsID1tqQSIkjGuICJOlX1lX6KVHuKlB2AgJwhp8wt22BmGjRIMwTpd+WxMBfxOVS/jeiDPDCHFjUzzC5zYBgyBSJdxkH62F/tQINziPdgLOfDolPGxxHm3FW2VMCculX9NGeLrxNiHcxqpXqKlRZAmzzblrY023FlnC61YtRaeUjdowhNlmLUUnYE8yMISV51GIcHBLnJx3FyuWEWZen41wWtWOVZxHDk+9T55ykhFW/kYhoKQaQg3Zq/R2LADHYsLY10MR3CZ5InsC6eULZRpxRHj2QojwreLvSMevwgvkqBFpQh8TKeDbWbaxEOcf96kao4UiTfhy/ihIzgpHJvLC8eya0oE3mvDm9DEA8tajlT0KNzlTjUZRKYrw6fCLrFPQVPEake7qDpJeClOEH1d/f27sSSAd5W8gatt0IIzdrAsBJ3/mqQOku7qYeNCbR+jCVNRjzzrjrB6T1ojDXDMQ2uMh3bEnUpwTO2lFCcNc0xPe7Tqp/tQyA/n4WDkDw75wT2gTIyVTi8XYE0LaOAO4f5+e0BxPzaybydgZGPyajnBn+Ic0zLqZTJ2BPmDTEZqkUbgeeyIZOQP9rnBLqB+AMjbrd5Mure8MQBf/bgk1D5YYm/VHbQbe87/Hka4zUI4JdRb3xmZ9186N2DiXUMsZ2I8II2U8U7N+fw8lCZApoY4z0B3MbAhjtSY0nlqOVUL3MGxVw0TRGegGQ0P4UPgEMjXr2Ssaz4RIfhBNBVLFGUhowvlkA5QamvXjm+1UMHOYUFH53Nne1q1pCGdtBfoYvUX8StjIKEqM5xlWD/k7t973l3B+aZiajBwyuTB9A4Li4bCOkLzrtQPxSzjvsknPN3IVv26MjSY+guMKQjv54EoGwr/ZYag7NxzfrOEiht5t7aBwNuGzmbK/hPPWUCvjL8vZ0UfMjLOKOoPmjv3AsyecBazrNqi2wOHENB8gL+uP+DUXwG6apSbcq9h7sgwUxOZpEeeRHX3B20Mptr3KwhEuHeFd0ddDSLQB0T23YlK9ES5z9zXYYtWNq6Qj1MjQRpAKe9yT+VoBTL0EmbJXqRykgo5Qb/WLcMKpqBb/pWOjCsFFK+VaScTv1tlbRYeWUHlhMUAy24H3N+N5ovLlvNxj/GLH+Jxg1xKaHDDB1DbkgXkypJXzuXNvstX49dsC09OkQxOdR+MCYfemL8vN9sRR1RAeDD47eADZyMWH9OR6ciFTi/G5hqIhNEn+6WN1MVUtCkHk2jbUY88ivB81hCrLX0ZD6uZt+HDq2vGszbrdRlTSEBqk4KXdS1CGJnVrHJTNuvQ9sy/hWft76neRRwcZkdgZ0JWOWZdq/yU02JNpRxsbR+Y7A7rSNOtSHb6E2qm+fUiXc3hj4gzo4mmbdembHr+EhfbnuvxpvqsAcw66UEZmXSZ8NyPsrP2z9UQ5LYn0o/4Cs251PgMaQm23tNsRaAdwUiWc0taAdSYegVmvI1c2talQbkTYn4xr/1/WMe0bB7KeeFQg+WadDMcij+2O+YAhYWvu900nbecdAskJQyOYG5MCs46CT94MBsO92+bdDAnbV86bRw/7yccq5UFKJh6BWUeoyHvPfgHC7qx4uyOH6GKGBJLTIvzIgMCsAxpHPhYg7Lzu9pQYW5jiyJ14WGeAjD3O1EKGY8E67wsQdlNpaw3x1CyQMclrSdxF6/bXkje1QHp5TCMDvyeELqe4Y+AumJgdw1YIknd14o09ALjwtzQcEGomOnUpcFkLAKKAzLEKOJDAs50IC/BsCZ9GPk33Km3wAyT178jEM3vPBemvH1ncw4qw8Wk+Wp+59U32aJ02eeENvjPQ/zli92b226wIG89bK1xK7992W1ZyRJEzENBm3RNh0BBqnTQZmYZLhzi7rctxBkZm3RdhswLWODrLjLm+vgsorJZGzgBr1j0R1s5J0HtfSoRMLKYbwkjtmNP9VF+NRDyciVn3RNhGolS3nmox1r0PYoHqGx92+eOoFfC3IbyFuvFS9sBCv3bj5N+6kkGws1fZEO41PiJsQ51dcD1ZrIC/C7tA6+Ql62X3QSzk7JDMRBrTxOR1zw2hRjYQM6MMezorJXy0hDpOzaib/vUP99hLLarifY1YTahh8qGknn0cng32N96IZJHXiuKWUGc+pjw0OuNU2Vr8lLA5ShNqbq+hvqoW1X1k6wtbWVTfLDvCUOtb6qu/UdO4YtFiI5kXefhuATeEWn+kp6E6dyl8P2tZhEubsOeXUGv91NfUGsq8IH/zjE1iaxNB+hLqmZz+4T2h9almsaxq4IY9oVbRnSEDdfiZN6/U6kaUYiAMdc4ZDZU1qA5kcsXNvOLSZq+tXZc3hBrBKMq2U5+SVhA11c7u0iV8pwg1PCMqV4LuQpC4PgGcXWwTkzOKUGMgUoZh7G1gi7vROHpZb3a33ldDqL6AohJs2ZYHuDg7i5HfrM8qdMlr7dyvPCnTFSYnRgZB4cIyxmcX1/J10bGWULnCFx0a5cUX7E/N7j5uKtd0/nNLqFr3ebRK4kdQVPe2eYofF9MLoSev0S3WOw9FcXtm5L0IY0SAk3e+11xQxbsqQm5OQn3fofNCOkI1ewGjUrayKBgguF3+nmqY8f31jgLHd5p2T+4I1QJu44p2c3E+IO+c3C5V/hRFSOPj7nUqk/oGeQdMo2f3qWi9H62yT8oUBleLZJLWhLr3Jbfic+r1LghY/XNPt9EO0fmeUGV9wawh9COZqJfv6owQTgizebeGLXz+5/s1zUXV+xpWe7NGH9gKryu85qoTPnIInzONCJMqvSuudEqNJ6qK0pxvOpkPf/KuRqJLYVGEcpOIJuv4/XrL8dIlPilCqeeGp2Xr13BlJ1+juoJ0vTbJgW/e/abrHYajTXea8CAk5AUp9qttwvHZkFFlSNEFZNwozHptBRpF4EeEgh197q6ESbbUjzQ2a+MKrXznFPEWCOu9cI65im1MKChpdpsuDVZcM5rxnplKyYL5EZ8Yxsd6bSF7mx5DeBc0DYIz3VVXDDjZB2MrlguHF6TXnlE/F+x3mmxlsoRim1gzfn9lv95JhndOcnJzgCyTDYL39Rx5Ljhup+mNQRPCTPoHfAUdXInjm0zvt1ivQ62iCQ7vFpYN3//Au0OPQ3hcsSmQC3gnJnh3BW33Kh3elgmPcKv3lPAP13Hv7LI6PL6cuBdaCW6WszoCsZR4lz0JCbd4bRcnkiQj3N61VkiU1iIg3MZtzrQmdwTNEYbFut0zVmwmiALhtu5FkuQlCQll66jVSTgIpYRhvp3ZRnAF6Ryh9+ut3El2wEVGuOKI4UjiWWaWcBuXjwvvOlYhjDfgg8+l68gJtbK+ltFshfcZwtXfQD6f6TFHqJV/+XtxV/WahOF9aQqJ5rLI1QhXjKgCqEK42o6KlFJ1VAhX2oqK92QoEYaHFS40FDPkFQlHJS7XIeW8XEVCpkzp8gK5q2ZAGIbvVS2m1DOt1AnDv9UgokQjH0CDMHx6u+BWT7IVvR1hGN/WMN/M14oxJ1zDQSiUauYcaxKGj4V7Ki50K6HrEoZxtGQzikL3LgnD8LpYM0JkkFNlQLjUcRMIjIpvmBCGYe7nznCpcGmWFGdGGMbWKayagsC0Wr8hYRgefznjAOKcwvZNSLpq8qvhiGxSjC0Iw+zPLp1cUbi0qitiQ0gYr94PueHIsm6KHSHR2ad1BGTL54AwzF6+1v8o+DgoY2BPSPQoPRxZRI5uq3FCGIaHym1nRdjZdSeOCMO6IV3d2QA4cHjZkDvC74WjDm62h9TtRW0uCcNvDXleyXLl1kPJyXVRLceERPHzFBkclgbA6efq4RZB94S16voIgJUxAeH0cj36qWrnh/CrY04aE4Gk0EWTqp8W553zS9oGeST8an9/nN/lLUlrCwBfoYY5TaLP6bXz1HKDfBN2iveH4/1+z4ke5N/DIfZN1ulXhMvp/yf8BxMEqwnuSvZLAAAAAElFTkSuQmCC"
+                        alt="house" width="50%">
+                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+                    <h2>Education</h2>
+                    <br>
+                    <p>Master of <br> NTU Bio-Industry Communication and Development</p>
+                    <p>Bachelor of NCHU Agronomy</p>
+                    <p></p>
+                    <!-- <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">View details »</a></p> -->
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNmu0klXIeRnpAUTsWdTM959qcYQ6jgECkcM2qVREAcUTqQ7w" alt="house" width="50%">
+                    <h2>Skills</h2>
+                    <br>
+                    <p>HTML5,CSS,JavaScript <br> API,RWD <br>R語言,SQL</p>
+                    <!-- <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">View details »</a></p> -->
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzb7oJEjrq792kD6jy6NILpfrImVGkDm6mmcp9VE2ixioqrnOC8g" alt="house" width="50%">
+                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+                    <h2>Contact</h2>
+                    <br>
+                    <p>r06630001@ntu.edu.tw <br>0975252782</p>
+                    <!-- <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">View details »</a></p> -->
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">過去的足跡<span class="text-muted">Experience</span></h2>
+                    <p class="lead">大學時期念農藝系的我，修習教育學程，一直認為我會成為一名老師，但，在實習過後，我發現台灣如此制式的教學體制並不是我想要的，我開始尋找我未來的工作到底想要甚麼樣子。</p>
+
+                </div>
+                <div class="col-md-5">
+                    <img src="./img/m3.jpg" alt="me" width="90%">
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="xMidYMid slice " focusable="false " role="img
+                        " aria-label="Placeholder: 500x500 "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "></rect><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
+                </div>
+            </div>
+
+            <hr class="featurette-divider ">
+
+            <div class="row featurette ">
+                <div class="col-md-7 order-md-2 ">
+                    <h2 class="featurette-heading ">自學，才是真正為自己而學 <span class="text-muted ">learning by yourself!</span></h2>
+                    <p class="lead ">當時已成為碩士生的我，不再如大學生有時間進行各種嘗試，為了快速學習，我報名時代基金會比賽yef商業競賽，參與農委會的計畫，發現程式能力是重要且每個領域不可或缺的，我了解到我想成為一名工程師，</p>
+                </div>
+                <div class="col-md-5 order-md-1 ">
+                    <img src="./img/me2.jpg" alt="me" width="90%">
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="xMidYMid slice " focusable="false " role="img -->
+                    <!-- " aria-label="Placeholder: 500x500 "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "></rect><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
+                </div>
+            </div>
+
+            <hr class="featurette-divider ">
+
+            <div class="row featurette ">
+                <div class="col-md-7 ">
+                    <h2 class="featurette-heading ">大膽嘗試!持之以恆!</h2>
+                    <p class="lead ">報名學校r語言課程、sql課程，我開始知道我自己想成為一名後端工程師，或許這條路還很遙遠，但就如同我的座右銘<br> I'm a slow walker, but I never walk backwards. -Abragam Lincoln <br> 我會這樣一直學習下去的!
+                    </p>
+                </div>
+                <div class="col-md-5 ">
+                    <img src="./img/me.jpg" alt="me" width="90%">
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="xMidYMid slice " focusable="false " role="img
+                        " aria-label="Placeholder: 500x500 "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "></rect><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
+                </div>
+            </div>
+
+            <hr class="featurette-divider ">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div>
+        <!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container ">
+            <p class="float-right "><a href="https://getbootstrap.com/docs/4.3/examples/carousel/# ">Back to top</a></p>
+            <p>© yuhan · <a href="https://getbootstrap.com/docs/4.3/examples/carousel/# ">Privacy</a> · <a href="https://getbootstrap.com/docs/4.3/examples/carousel/# ">Terms</a></p>
+        </footer>
+    </main>
+    <script src="./Carousel Template · Bootstrap_files/jquery-3.3.1.slim.min.js.下載 " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script>
+        window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js "><\/script>')
+    </script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap.bundle.min.js.下載 " integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o " crossorigin="anonymous "></script>
+
+    <audio controls="controls " style="display: none; "></audio></body>
+<style type="text/css ">
+    #yddContainer {
+        display: block;
+        font-family: Microsoft YaHei;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: -4px;
+        left: -4px;
+        font-size: 12px;
+        border: 1px solid
+    }
+    
+    #yddTop {
+        display: block;
+        height: 22px
+    }
+    
+    #yddTopBorderlr {
+        display: block;
+        position: static;
+        height: 17px;
+        padding: 2px 28px;
+        line-height: 17px;
+        font-size: 12px;
+        color: #5079bb;
+        font-weight: bold;
+        border-style: none solid;
+        border-width: 1px
+    }
+    
+    #yddTopBorderlr .ydd-sp {
+        position: absolute;
+        top: 2px;
+        height: 0;
+        overflow: hidden
+    }
+    
+    .ydd-icon {
+        left: 5px;
+        width: 17px;
+        padding: 0px 0px 0px 0px;
+        padding-top: 17px;
+        background-position: -16px -44px
+    }
+    
+    .ydd-close {
+        right: 5px;
+        width: 16px;
+        padding-top: 16px;
+        background-position: left -44px
+    }
+    
+    #yddKeyTitle {
+        float: left;
+        text-decoration: none
+    }
+    
+    #yddMiddle {
+        display: block;
+        margin-bottom: 10px
+    }
+    
+    .ydd-tabs {
+        display: block;
+        margin: 5px 0;
+        padding: 0 5px;
+        height: 18px;
+        border-bottom: 1px solid
+    }
+    
+    .ydd-tab {
+        display: block;
+        float: left;
+        height: 18px;
+        margin: 0 5px -1px 0;
+        padding: 0 4px;
+        line-height: 18px;
+        border: 1px solid;
+        border-bottom: none
+    }
+    
+    .ydd-trans-container {
+        display: block;
+        line-height: 160%
+    }
+    
+    .ydd-trans-container a {
+        text-decoration: none;
+    }
+    
+    #yddBottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 22px;
+        line-height: 22px;
+        overflow: hidden;
+        background-position: left -22px
+    }
+    
+    .ydd-padding010 {
+        padding: 0 10px
+    }
+    
+    #yddWrapper {
+        color: #252525;
+        z-index: 10001;
+        background: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);
+    }
+    
+    #yddContainer {
+        background: #fff;
+        border-color: #4b7598
+    }
+    
+    #yddTopBorderlr {
+        border-color: #f0f8fc
+    }
+    
+    #yddWrapper .ydd-sp {
+        background-image: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)
+    }
+    
+    #yddWrapper a,
+    #yddWrapper a:hover,
+    #yddWrapper a:visited {
+        color: #50799b
+    }
+    
+    #yddWrapper .ydd-tabs {
+        color: #959595
+    }
+    
+    .ydd-tabs,
+    .ydd-tab {
+        background: #fff;
+        border-color: #d5e7f3
+    }
+    
+    #yddBottom {
+        color: #363636
+    }
+    
+    #yddWrapper {
+        min-width: 250px;
+        max-width: 400px;
+    }
+</style>
+
+</html>
