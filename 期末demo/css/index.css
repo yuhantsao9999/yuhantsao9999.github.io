@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+}
+
+body {
+    z-index: 1;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#logo {
+    float: left;
+}
+
+ul {
+    color: aliceblue;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header {
+    z-index: 2;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.container {
+    /* 進行容器的置中 */
+    width: 1170px;
+    /* 進行置中(要想是容器的置中還是內容的置中) */
+    display: block;
+    /* 占據一整行 */
+    margin: 0 auto;
+    /* 要占據一整行但是寬不夠，所以自動補margin  0上下 auto是左右平分*/
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    float: left;
+}
+
+#nav {
+    float: right;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 0 12px;
+    color: white;
+    font-size: 13px;
+}
+
+.boundary:after {
+    content: "|";
+    padding: 0 12px;
+}
+
+.introduction {
+    color: aliceblue
+}
+
+.result {
+    color: aliceblue
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+div#data {
+    min-height: 115px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#match {
+    min-height: 115px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img.image:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+    transform: translate3d(-3px, -3px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
